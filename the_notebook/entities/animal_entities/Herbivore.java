@@ -33,6 +33,7 @@ public class Herbivore extends Animal {
 
     public void printDiet(){
         System.out.println(plantDiet);
+        this.getPlantDiet().forEach(plantDiet -> System.out.println(plantDiet));
     }
 
 
